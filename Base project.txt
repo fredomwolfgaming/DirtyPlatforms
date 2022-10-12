@@ -3,3 +3,11 @@ Part 2: Implement the following:
 -A Game Instance that keeps track of how many items have been picked up and/or are left to pickup.
 -A second level that the player is transferred to once they've picked up all the items.
 -A "KillLine" or "KillZone" that will kill the player and restart the level if the player falls too low
+
+i cheated on the game instance portion, but it operates the same as a Unity Game Manager component.
+the bit i did was used the blueprint class for the coin/key/cone. 
+every time you touch a key, 
+it deletes that key, 
+polls how many are still on the level, 
+reports that new number, 
+or if it's 0, then progresses to the next level.
