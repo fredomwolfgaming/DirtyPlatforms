@@ -292,11 +292,11 @@ public:
             cout << endl;
         }
         cout << "----------------------------------------" << endl << endl;
-    }
+    }//dump will be removed for gui
 
 };
 
-static bool getHumanMove(int maxValue, TicTacToe::Entry human, TicTacToe& t)
+static bool getHumanMove(int maxValue, TicTacToe::Entry human, TicTacToe& t)//this entire section will have to be reworked
 {
     // check if player is able to move
     if (t.isVictory(t.PLAYER_ONE) || t.isVictory(t.PLAYER_TWO) || t.isFull())
@@ -473,7 +473,8 @@ int main()
     t.dump();
 
     cout << endl;
-
+    
+    //win testing
     if (t.isVictory(human))
         cout << "Human Victory" << endl;
 
