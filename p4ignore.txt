@@ -74,4 +74,4 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 
 #hospitality base - move to base folder to use
-Content/Hospitality/*
+#Content/Hospitality/*
