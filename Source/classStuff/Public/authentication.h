@@ -4,16 +4,16 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "ticTacTest.generated.h"
+#include "authentication.generated.h"
 
 UCLASS()
-class CLASSSTUFF_API AticTacTest : public AActor
+class CLASSSTUFF_API Aauthentication : public AActor
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
-	AticTacTest();
+	Aauthentication();
 
 protected:
 	// Called when the game starts or when spawned

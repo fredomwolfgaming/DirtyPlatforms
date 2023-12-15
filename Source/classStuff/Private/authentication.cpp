@@ -1,10 +1,10 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "ticTacTest.h"
+#include "authentication.h"
 
 // Sets default values
-AticTacTest::AticTacTest()
+Aauthentication::Aauthentication()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
@@ -12,14 +12,14 @@ AticTacTest::AticTacTest()
 }
 
 // Called when the game starts or when spawned
-void AticTacTest::BeginPlay()
+void Aauthentication::BeginPlay()
 {
 	Super::BeginPlay();
 	
 }
 
 // Called every frame
-void AticTacTest::Tick(float DeltaTime)
+void Aauthentication::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
